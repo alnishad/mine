@@ -1,6 +1,6 @@
 //importing node framework
 var express = require("express");
-   
+ 
 var app = express();//Respond with "SNE MAKES ME CRY AGAIN!!! ON ADN ON!!!" for requests that hit our root "/"
 app.get("/", function (req, res) {
  res.send("SNE MAKES ME CRY");
