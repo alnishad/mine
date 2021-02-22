@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh alexandr@192.168.122.143 <<EOF
+ cd ~/mine
+ git pull
+ npm install production
+ pm2 restart all
+ exit
+EOF
